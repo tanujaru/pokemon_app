@@ -9,12 +9,12 @@ const Styleh = {
 
 class Index extends React.Component {
   render() {
-    const { sample } = this.props;
+    const { poke } = this.props;
     return (
       <div>
         <h1 style={Styleh}>Index All Pokemons</h1>
         <ul>
-          {sample.map((item, i) => {
+          {poke.map((item, i) => {
             return (
               <li  key={item.name}>
                 <h2>

@@ -15,7 +15,7 @@ app.get('/',(req,res)=>{
 })
 // Index Page *****************************
 app.get('/pokemon', (req,res)=>{
-    res.render('Index', { sample : pokemon })
+    res.render('Index', { poke: pokemon })
     
 })
 // Show page **********************
